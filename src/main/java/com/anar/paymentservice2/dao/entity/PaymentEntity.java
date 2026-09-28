@@ -25,4 +25,7 @@ public class PaymentEntity {
 
     @Column(name= "user_name")
     private String name ;
+
+    @Column(name = "email", unique = true)
+    private String email;
 }
